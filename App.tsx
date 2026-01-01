@@ -43,7 +43,7 @@ const AppContent: React.FC = () => {
         fixed lg:static inset-y-0 left-0 z-50 
         transform ${mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} 
         lg:translate-x-0 transition-transform duration-300 ease-in-out
-        bg-slate-900 dark:bg-slate-950
+        bg-white dark:bg-slate-950
       `}>
         <Sidebar 
           activeSection={activeSection} 
